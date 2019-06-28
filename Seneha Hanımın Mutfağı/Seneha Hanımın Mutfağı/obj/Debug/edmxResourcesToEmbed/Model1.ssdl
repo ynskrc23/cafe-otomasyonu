@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SenehaCafeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="anayemek">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="corbalar">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="dondurma">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="icecekler">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Üürn Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="ödeme">
+    <Key>
+      <PropertyRef Name="ıd" />
+    </Key>
+    <Property Name="ıd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="masa no" Type="char" MaxLength="10" />
+    <Property Name="indirim" Type="money" />
+    <Property Name="kdv" Type="money" />
+    <Property Name="toplam" Type="money" />
+    <Property Name="ödenecek" Type="money" />
+  </EntityType>
+  <EntityType Name="salata">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="sıcak icecek">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Üürn Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="siparisler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Masa No" Type="char" MaxLength="10" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Adet" Type="int" />
+    <Property Name="Ürün Fiyat" Type="money" />
+    <Property Name="Zaman" Type="date" />
+  </EntityType>
+  <EntityType Name="soguk icecek">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="tatlılar">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ürün Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ürün Fiyat" Type="money" />
+  </EntityType>
+  <EntityContainer Name="SenehaCafeModelStoreContainer">
+    <EntitySet Name="anayemek" EntityType="Self.anayemek" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="corbalar" EntityType="Self.corbalar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dondurma" EntityType="Self.dondurma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="icecekler" EntityType="Self.icecekler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ödeme" EntityType="Self.ödeme" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="salata" EntityType="Self.salata" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sıcak icecek" EntityType="Self.sıcak icecek" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="siparisler" EntityType="Self.siparisler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="soguk icecek" EntityType="Self.soguk icecek" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tatlılar" EntityType="Self.tatlılar" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

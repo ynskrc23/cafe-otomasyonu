@@ -1,0 +1,16 @@
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\Seneha Hanımın Mutfağı.exe.config
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\Seneha Hanımın Mutfağı.exe
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\Seneha Hanımın Mutfağı.pdb
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha_Hanımın_Mutfağı.AnaekranForm1.resources
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha_Hanımın_Mutfağı.Properties.Resources.resources
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha Hanımın Mutfağı.csproj.GenerateResource.Cache
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha Hanımın Mutfağı.exe
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha Hanımın Mutfağı.pdb
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha_Hanımın_Mutfağı.SistemForm2.resources
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha_Hanımın_Mutfağı.SiparisekranForm3.resources
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\EntityFramework.dll
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\EntityFramework.xml
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha Hanımın Mutfağı.csprojResolveAssemblyReference.cache
+C:\Users\DAMLA REİS\Documents\Visual Studio 2013\Projects\Seneha Hanımın Mutfağı\Seneha Hanımın Mutfağı\obj\Debug\Seneha_Hanımın_Mutfağı.ÖdemeForm4.resources

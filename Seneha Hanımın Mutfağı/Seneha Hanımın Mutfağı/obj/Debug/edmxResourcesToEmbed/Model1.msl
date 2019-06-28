@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SenehaCafeModelStoreContainer" CdmEntityContainer="SenehaCafeEntities3">
+    <EntitySetMapping Name="anayemeks">
+      <EntityTypeMapping TypeName="SenehaCafeModel.anayemek">
+        <MappingFragment StoreEntitySet="anayemek">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="corbalars">
+      <EntityTypeMapping TypeName="SenehaCafeModel.corbalar">
+        <MappingFragment StoreEntitySet="corbalar">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dondurmas">
+      <EntityTypeMapping TypeName="SenehaCafeModel.dondurma">
+        <MappingFragment StoreEntitySet="dondurma">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iceceklers">
+      <EntityTypeMapping TypeName="SenehaCafeModel.icecekler">
+        <MappingFragment StoreEntitySet="icecekler">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Üürn_Fiyat" ColumnName="Üürn Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ödeme">
+      <EntityTypeMapping TypeName="SenehaCafeModel.ödeme">
+        <MappingFragment StoreEntitySet="ödeme">
+          <ScalarProperty Name="ıd" ColumnName="ıd" />
+          <ScalarProperty Name="masa_no" ColumnName="masa no" />
+          <ScalarProperty Name="indirim" ColumnName="indirim" />
+          <ScalarProperty Name="kdv" ColumnName="kdv" />
+          <ScalarProperty Name="toplam" ColumnName="toplam" />
+          <ScalarProperty Name="ödenecek" ColumnName="ödenecek" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salatas">
+      <EntityTypeMapping TypeName="SenehaCafeModel.salata">
+        <MappingFragment StoreEntitySet="salata">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sıcak_icecek">
+      <EntityTypeMapping TypeName="SenehaCafeModel.sıcak_icecek">
+        <MappingFragment StoreEntitySet="sıcak icecek">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Üürn_Ad" ColumnName="Üürn Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="siparislers">
+      <EntityTypeMapping TypeName="SenehaCafeModel.siparisler">
+        <MappingFragment StoreEntitySet="siparisler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Masa_No" ColumnName="Masa No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Adet" ColumnName="Ürün Adet" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+          <ScalarProperty Name="Zaman" ColumnName="Zaman" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="soguk_iceceks">
+      <EntityTypeMapping TypeName="SenehaCafeModel.soguk_icecek">
+        <MappingFragment StoreEntitySet="soguk icecek">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tatlılar">
+      <EntityTypeMapping TypeName="SenehaCafeModel.tatlılar">
+        <MappingFragment StoreEntitySet="tatlılar">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ürün_Ad" ColumnName="Ürün Ad" />
+          <ScalarProperty Name="Ürün_Fiyat" ColumnName="Ürün Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
